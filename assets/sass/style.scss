@@ -1,0 +1,31 @@
+---
+---
+html {
+    body {
+        #page-wrapper {
+            background-image: url('../images/jp-background.jpg');
+            background-repeat: no-repeat;
+            background-position: left;
+            background-attachment: fixed;
+            background-size: auto 100%;
+        }
+        section {
+            .content {
+                p {
+                    text-shadow: 1px 1px 10px #fff;
+                }
+            }
+            .inner {
+                form {
+                    ul.actions {
+                        li {
+                            input#send {
+                                width:200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
